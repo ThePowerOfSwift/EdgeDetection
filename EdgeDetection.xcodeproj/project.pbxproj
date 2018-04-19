@@ -32,6 +32,7 @@
 
 /* Begin PBXBuildFile section */
 		761604C12085C969006ED220 /* EdgeDetectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761604C02085C969006ED220 /* EdgeDetectionController.swift */; };
+		761604C82088AB25006ED220 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761604C72088AB24006ED220 /* Cocoa.framework */; };
 		OBJ_1007 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_692 /* Package.swift */; };
 		OBJ_1012 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_736 /* Aliases.swift */; };
 		OBJ_1013 /* Base64Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_737 /* Base64Encoder.swift */; };
@@ -3553,6 +3554,7 @@
 
 /* Begin PBXFileReference section */
 		761604C02085C969006ED220 /* EdgeDetectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeDetectionController.swift; sourceTree = "<group>"; };
+		761604C72088AB24006ED220 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		"BCrypt::BCrypt::Product" /* BCrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BCrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Bits::Bits::Product" /* Bits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Bits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Console::Console::Product" /* Console.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Console.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -4700,6 +4702,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
+				761604C82088AB25006ED220 /* Cocoa.framework in Frameworks */,
 				OBJ_804 /* FluentProvider.framework in Frameworks */,
 				OBJ_805 /* Fluent.framework in Frameworks */,
 				OBJ_806 /* SQLite.framework in Frameworks */,
@@ -4791,6 +4794,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		761604C62088AB24006ED220 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				761604C72088AB24006ED220 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		OBJ_11 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -5974,6 +5985,7 @@
 				OBJ_26 /* Public */,
 				OBJ_27 /* Dependencies */,
 				OBJ_756 /* Products */,
+				761604C62088AB24006ED220 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
